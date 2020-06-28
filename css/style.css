@@ -44,12 +44,6 @@ body {
   font-size: 45px;
 }
 
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
 /* section__home */
 .page__home {
   background-image: url(../img/hero_1.jpg);
@@ -639,4 +633,24 @@ body {
 .footer__sns a i:hover {
   color: #fafafa;
   cursor: pointer;
+}
+
+/* media */
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .destination__column a img {
+    width: 240px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .destination__column a img {
+    width: 260px;
+  }
 }
