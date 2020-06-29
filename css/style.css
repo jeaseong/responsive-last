@@ -871,4 +871,13 @@ body {
   .blog__column:last-child {
     margin-bottom: 0;
   }
+
+  .destination__column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
 }
